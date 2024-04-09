@@ -66,6 +66,8 @@ Retorna todos os registros de ambas tabelas combinados.
 Retorna todos os registros quando há uma correspondência à esquerda (tabela_a) ou à direita (tabela_b).
 > SELECT **<lista de colunas ou um  _*_ para selecionar todas as colunas>** FROM **<tabela_a>** FULL OUTER JOIN **<tabela_b>** ON **<condição de junção, ex. tabela_a.primaryKey = tabela_b.foreignKey>**
 
+![Diagram of joins](./diagram.jpg)
+
 
 # Referências
 
